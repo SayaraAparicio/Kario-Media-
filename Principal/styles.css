@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    position: relative;
+    background-image: url('./images/pexels-pixabay-159400.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo {
+    position: relative;
+    margin-top: 20vw;
+    left: 44vw;
+    width: 8vw;
+  
+
+}

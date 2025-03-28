@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kario Media PM</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #111;
+        }
+        .container {
+            text-align: center;
+        }
+        .logo, .login-panel, .bienvenido, .ultima-pantalla {
+            display: none;
+        }
+        
+        /* Animaciones */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes fadeOut {
+            from { opacity: 1; }
+            to { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Logo" class="logo" id="logo">
+        <div class="login-panel" id="loginPanel">
+            <h2>Login</h2>
+            <button onclick="irBienvenido()">Ingresar</button>
+        </div>
+        <div class="bienvenido" id="bienvenido">
+            <h2>Bienvenido</h2>
+        </div>
+        <div class="ultima-pantalla" id="ultimaPantalla">
+            <h2>Página Final</h2>
+        </div>
+    </div>
+    
+    <script>
+        function iniciarAnimacion() {
+            let logo = document.getElementById("logo");
+            let loginPanel = document.getElementById("loginPanel");
+            let bienvenido = document.getElementById("bienvenido");
+            let ultimaPantalla = document.getElementById("ultimaPantalla");
+            
+            logo.style.display = "block";
+            setTimeout(() => {
+                logo.style.animation = "fadeOut 1.5s forwards";
+            }, 1500);
+            
+            setTimeout(() => {
+                logo.style.animation = "fadeIn 1.5s forwards";
+            }, 3000);
+            
+            setTimeout(() => {
+                logo.style.display = "none";
+                loginPanel.style.display = "block";
+                loginPanel.style.animation = "fadeIn 1.5s forwards";
+            }, 4500);
+        }
+        
+        function irBienvenido() {
+            document.getElementById("loginPanel").style.display = "none";
+            let bienvenido = document.getElementById("bienvenido");
+            bienvenido.style.display = "block";
+            bienvenido.style.animation = "fadeIn 1s forwards";
+            
+            setTimeout(() => {
+                bienvenido.style.animation = "fadeOut 1s forwards";
+            }, 4000);
+            
+            setTimeout(() => {
+                document.getElementById("logo").style.display = "block";
+                document.getElementById("logo").style.animation = "fadeIn 1s forwards";
+            }, 5000);
+            
+            setTimeout(() => {
+                document.getElementById("logo").style.display = "none";
+                let ultimaPantalla = document.getElementById("ultimaPantalla");
+                ultimaPantalla.style.display = "block";
+                ultimaPantalla.style.animation = "fadeIn 1s forwards";
+            }, 6000);
+        }
+        
+        window.onload = iniciarAnimacion;
+    </script>
+</body>
+</html>
