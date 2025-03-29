@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "grande";
+    src: url(./fonts/Myriad\ Pro\ Regular.ttf);
+}
+
+@font-face {
+    font-family: "pequeño";
+    src: url(./fonts/Myriad\ Pro\ Light.otf);
+}
+
+
+
+
+body {
+    background-color: black;
+    position: relative;
+    background-image: url('./images/pexels-pixabay-159400.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.blanco {
+    position: relative;
+    background-color: #FFFFFF;
+    border: 1px #707070;
+    border-radius: 67px;
+    width: 45vw;
+    height: 35vw;
+    left: 26.5vw;
+    margin-top: 5vw;
+}
+
+.logo {
+    position: relative;
+    margin-top: 2vw;
+    left: 21vw;
+    width: 5vw;
+    animation: logoSequence 4s linear forwards;
+}
+
+.texto1 {
+    position: relative;
+    font-family: "grande";
+    color: rgb(0, 0, 0);
+    left: 13vw;
+    margin-top: 1vw;
+    font-size: 40px;
+    width: 510px;
+    height: 96px;
+    display: flex;
+    text-align: center;
+    
+}
+
+.texto2 {
+    position: relative;
+    font-family: "pequeño";
+    color: rgb(0, 0, 0);
+    left: 13vw;
+    margin-top: 1vw;
+    font-size: 20px;
+    width: 530px;
+    display: flex;
+    text-align: center;
+    
+}
+
+
+

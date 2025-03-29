@@ -11,6 +11,14 @@ body {
     margin-top: 20vw;
     left: 44vw;
     width: 8vw;
-  
+    animation: logoSequence 4s linear forwards;
 
 }
+
+@keyframes logoSequence {
+    0% { opacity: 1; }
+    23% { opacity: 0; }
+    46% { opacity: 1; }
+    69% { opacity: 0; }
+}
+
