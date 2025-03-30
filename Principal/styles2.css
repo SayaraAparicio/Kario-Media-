@@ -65,5 +65,78 @@ body {
     
 }
 
+.usuario {
+    position: relative;
+    font-family: "pequeño";
+    color: rgb(0, 0, 0);
+    left: 10vw;
+    margin-top: 1vw;
+    font-size: 30px;
+    width: 530px;
+    display: flex;
+    text-align: center;
+}
+
+form input {
+    position: relative;
+    border-radius: 20px;
+    width: 25vw;
+    left: 10vw;
+    height: 1.5vw;
+    margin-top: -10vw;
+
+
+}
+
+.contraseña {
+    position: relative;
+    font-family: "pequeño";
+    color: rgb(0, 0, 0);
+    left: 10vw;
+    margin-top: 1vw;
+    font-size: 30px;
+    width: 530px;
+    display: flex;
+    text-align: center;
+}
+
+form input {    
+    position: relative;
+    border-radius: 20px;
+    width: 25vw;
+    left: 10vw;
+    height: 1.5vw;
+    margin-top: -100vw;
+    
+
+}
+
+form button {
+    position: relative;
+    border-radius: 40px;
+    width: 13vw;
+    left: -9vw;
+    height: 3vw;
+    background-color: rgb(255, 87, 25);
+    top: 4vw;
+    color: white;
+    font-size: 1vw;
+
+}
+
+.texto3 {
+    position: relative;
+    font-family: "pequeño";
+    color: rgb(0, 0, 0);
+    left: 8vw;
+    margin-top: 5vw;
+    font-size: 20px;
+    width: 40w;
+    display: flex;
+    text-align: center;
+    
+}
+
+
 
 
