@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "grande";
+    src: url(./fonts/Myriad\ Pro\ Regular.ttf);
+}
+
+@font-face {
+    font-family: "pequeño";
+    src: url(./fonts/Myriad\ Pro\ Light.otf);
+}
+
+
+
+
+body {
+    background-color: #FFFFFF;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0%;
+}
+
+header {
+    position: relative;
+    border: 1px solid #707070;
+    
+}
+
+.añadir {
+    position: relative;
+    border: 1px solid    #707070;
+    margin-left: 5vw;
+    width: 1.5vw;
+    top: 2em;
+}
+
+.text1 {
+    position: relative;
+    font-family: "grande";
+    margin-left: 8vw;
+    font-size: 3em;
+}
+
+
+
+.refresh {
+    position: relative;
+    border: 1px solid    #707070;
+    top: -6em;
+    margin-left: 15vw;
+    width: 1.5vw;
+
+}
+
+.trash {
+    position: relative;
+    border: 1px solid    #707070;
+    top: -6em;
+    left: 14vw;
+    width: 1.5vw;
+
+}
+
+.logo {
+    position: relative;
+    border: 1px solid    #707070;
+    top: -6em;
+    left: 18vw;
+    width: 1.5vw;
+}
+
+.reportar {
+    position: relative;
+    border: 1px solid    #707070;
+    top: -6em;
+    left: 22vw;
+    width: 1.5vw;
+}
+
+.ayuda {
+    position: relative;
+    border: 1px solid    #707070;
+    top: -6em;
+    left: 24vw;
+    width: 1.5vw;
+}

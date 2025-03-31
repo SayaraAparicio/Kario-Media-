@@ -14,7 +14,7 @@
 body {
     background-color: black;
     position: relative;
-    background-image: url('./images/pexels-pixabay-159400.png');
+    background-image: url('./images/fondo.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -113,11 +113,11 @@ form input {
 
 form button {
     position: relative;
-    border-radius: 40px;
+    border-radius: 50px;
     width: 13vw;
     left: -9vw;
     height: 3vw;
-    background-color: rgb(255, 87, 25);
+    background-color: #FF7221;
     top: 4vw;
     color: white;
     font-size: 1vw;
