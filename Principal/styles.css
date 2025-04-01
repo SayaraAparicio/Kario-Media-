@@ -22,3 +22,18 @@ body {
     69% { opacity: 0; }
 }
 
+
+@media (max-width: 430px) {
+    .logo {
+        width: 20%;
+        top: 40vh;
+        left: 40vw;
+    }
+
+    body {
+        background-image: url(./images/fondo.png);
+        background-size: 100%;
+        height: 1000vh;
+    }
+}
+
