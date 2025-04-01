@@ -22,18 +22,36 @@ body {
     69% { opacity: 0; }
 }
 
+.fondoMedia {
+    display: none;
+}
 
 @media (max-width: 430px) {
     .logo {
         width: 20%;
-        top: 40vh;
+        top: -120vh;
         left: 40vw;
-    }
+        z-index: 1;  
+      }
 
     body {
-        background-image: url(./images/fondo.png);
+        background-image: none;
         background-size: 100%;
-        height: 1000vh;
+        height: 100vh;
+        background-color: black;
+        margin: 0;
+        overflow: hidden;
+        
+        
+    }
+
+    .fondoMedia {
+        display: block;
+        z-index: -1;
+        
+        overflow: hidden;
+        
+    
     }
 }
 
