@@ -6,11 +6,17 @@ body {
     background-size: 100%;
 }
 
+.fondoMedia {
+    opacity: 0;
+}
+
+
+
 .img {
     position: relative;
     width: 45vw;
     left: 26.5vw;
-    margin-top: 9vw;
+    margin-top: -100vw;
     opacity: 0;
     animation: mostrarImg 6.1s linear forwards;
     
@@ -21,9 +27,10 @@ body {
     position: relative;
     width: 8vw;
     left: 1vw;
-    top: -10vw;
+    margin-top: -300vw;
     opacity: 0; 
     animation: mostrarImg2 6.1s linear forwards;
+    top: -450px;
     
 }
 
@@ -41,4 +48,39 @@ body {
     66.77% { opacity: 0; } 
     66.87% { opacity: 1; }  
     100% { opacity: 1; } 
+}
+
+@media (max-width: 430px) {
+    body {
+        background-image: none;
+        background-size: 100%;
+        height: 100vh;
+        background-color: black;
+        margin: 0%;
+        overflow: hidden;
+    }
+
+    .fondoMedia {
+        display: block;
+        z-index: -1;
+        opacity: 100;
+        overflow: hidden;
+    }
+
+    .img {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 99vw;
+        margin-left: -26vw;
+        margin-top: -130vh;
+        height: 40vh;
+
+    }
+
+    .img2 {
+        position: relative;
+        width: 4vw;
+    }
 }
