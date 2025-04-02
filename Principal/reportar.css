@@ -22,7 +22,7 @@ body {
 header {
     position: absolute;
     border-bottom: 1px solid #707070;
-    top : -2vw;
+    top : -1vw;
     width: 100%;
     left : 0;
     height: 12vh;
@@ -130,92 +130,73 @@ header {
     width: 3vw;
 }
 
-.titulo {
+.boton {
     position: relative;
-    font-family: "pequeño";
+    background-color: #FF7221;
+    border-radius: 50px;
+    width: 24vw;
+    height: 6vh;
     margin-left: 38vw;
-    top: 6vw;
-    font-size: 6em;
-}
-
-.subtitulo {
-    position: relative;
-    font-family: "pequeño";
-    margin-left: 25vw;
-    top: 5.5vw;
-    font-size: 3em;
-}
-
-.container {
-    border-radius: 1.5vw;
-    border-style: solid;
-    animation: qfondo 12s forwards;
-    animation-delay: 9s;
-    border-color: #817f7f;
-    margin-bottom: 1vw;
-    padding: 1vw;
-    margin-left: 2.5vw;
-    width: 90%;
-    display: grid;
-    animation: extra 13s forwards;
-    grid-template-columns: 0.4fr 0.4fr 0.2fr 0.4fr 0.4fr 0.2fr 0.2fr 0.2fr 0.2fr;
-}
-
-.txt {
-    animation: qfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    padding: 5px;
-    font-size: 1vw;
-    font-family: "pequeño";
-    display: flex;
-    align-items: center;
-}
-.a{
-    margin-left: 2vw;
-}
-.container_invisible {
-    animation: qfondo 12s forwards;
-    animation-delay: 9s;
-    margin-bottom: 1vw;
-    padding-top: 13vh;
-    margin-left: 3vw;
-    width: 90%;
-    font-size: 1vw;
+    top: 15vh;
     font-family: "grande";
-    display: grid;
-    animation: extra 13s forwards;
-    grid-template-columns: 0.4fr 0.4fr 0.2fr 0.4fr 0.4fr 0.2fr 0.2fr 0.2fr 0.2fr;
-}
-@keyframes qfondo {
-    0%{opacity: 0;}
-    25%{opacity: 0;}
-    50%{opacity: 0;}
-    75%{opacity: 0;}
-    100%{opacity: 1; background-image: none; background-color: white;}
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+    
 }
 
-.porcentaje{
-    margin-left: .5vw;
+.usuario {
     position: relative;
+    left: 20vw;
+    top: 20vh;
+    font-family: "grande";
+    font-size: 1.5vw;
 }
-.porcentaje span{
-    font-size: 0.7vw;
-    font-family: "pequeño";
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-    margin-top: 0.6vw;
-    margin-left: 0.4vw;
+
+form input {
+    position: relative;
+    width: 25vw;
+    top: 19vh;
+    height: 3vh;
+    left: 20vw;
 }
-circle{
-    fill: none;
-    stroke: var(--color);
-    stroke-width: 0.3vw;
-    stroke-dasharray: var(--porcentaje) 100;
-    transform: rotate(-90deg);
-    transform-origin: 50%;
-    stroke-linecap: round;
+
+.contraseña {
+    position: relative;
+    left: 20vw;
+    top: 20vh;
+    font-family: "grande";
+    font-size: 1.5vw;
+
 }
+
+.texto {
+    position: relative;
+    left: 20vw;
+    top: 20vh;
+    font-family: "grande";
+    font-size: 1.5vw;
+
+}
+
+.areatexto {
+    position: relative;
+    left: 20vw;
+    top: 10vw;
+}
+
+.boton2 {
+    position: relative;
+    background-color: #FF7221;
+    border-radius: 50px;
+    width: 24vw;
+    height: 6vh;
+    margin-left: 38vw;
+    top: 24vh;
+    font-family: "grande";
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+    
+}
+

@@ -22,7 +22,7 @@ body {
 header {
     position: absolute;
     border-bottom: 1px solid #707070;
-    top : -2vw;
+    top : -3vw;
     width: 100%;
     left : 0;
     height: 12vh;
@@ -130,92 +130,120 @@ header {
     width: 3vw;
 }
 
-.titulo {
+.cuadro {
     position: relative;
-    font-family: "pequeño";
-    margin-left: 38vw;
-    top: 6vw;
-    font-size: 6em;
+    width: 100vw;
+    height: 20vh;
+    background-color: #ffa876;
+    top: 6.2vh;
 }
 
-.subtitulo {
+.texto {
     position: relative;
-    font-family: "pequeño";
-    margin-left: 25vw;
-    top: 5.5vw;
-    font-size: 3em;
-}
-
-.container {
-    border-radius: 1.5vw;
-    border-style: solid;
-    animation: qfondo 12s forwards;
-    animation-delay: 9s;
-    border-color: #817f7f;
-    margin-bottom: 1vw;
-    padding: 1vw;
-    margin-left: 2.5vw;
-    width: 90%;
-    display: grid;
-    animation: extra 13s forwards;
-    grid-template-columns: 0.4fr 0.4fr 0.2fr 0.4fr 0.4fr 0.2fr 0.2fr 0.2fr 0.2fr;
-}
-
-.txt {
-    animation: qfondo 12s forwards;
-    animation-delay: 9s;
-    animation: extra 13s forwards;
-    padding: 5px;
-    font-size: 1vw;
-    font-family: "pequeño";
-    display: flex;
-    align-items: center;
-}
-.a{
-    margin-left: 2vw;
-}
-.container_invisible {
-    animation: qfondo 12s forwards;
-    animation-delay: 9s;
-    margin-bottom: 1vw;
-    padding-top: 13vh;
-    margin-left: 3vw;
-    width: 90%;
-    font-size: 1vw;
     font-family: "grande";
-    display: grid;
-    animation: extra 13s forwards;
-    grid-template-columns: 0.4fr 0.4fr 0.2fr 0.4fr 0.4fr 0.2fr 0.2fr 0.2fr 0.2fr;
-}
-@keyframes qfondo {
-    0%{opacity: 0;}
-    25%{opacity: 0;}
-    50%{opacity: 0;}
-    75%{opacity: 0;}
-    100%{opacity: 1; background-image: none; background-color: white;}
+    margin-left: 32vw;
+    top:6vh;
+    font-size: 3vw;
+    color: white;
 }
 
-.porcentaje{
-    margin-left: .5vw;
+form input {
     position: relative;
+    top: 16vh;
+    width: 80vw;
+    left: 10vw;
+    height: 4.5vh;
+    background-color: #ffa876;
+    border-radius: 20px;
+    font-size: 1vw;
 }
-.porcentaje span{
-    font-size: 0.7vw;
-    font-family: "pequeño";
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-    margin-top: 0.6vw;
-    margin-left: 0.4vw;
+
+.lupa {
+    position: relative;
+    width: 2vw;
+    left: 87vw;
+    top: 11.5vh;
 }
-circle{
-    fill: none;
-    stroke: var(--color);
-    stroke-width: 0.3vw;
-    stroke-dasharray: var(--porcentaje) 100;
-    transform: rotate(-90deg);
-    transform-origin: 50%;
-    stroke-linecap: round;
+
+.ajuste {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    top: 20vh;
+    left: 8vw;
+    width: 20vw;
+    height:35vh;
+}
+
+.ajustess {
+    position: relative;
+    width: 7vw;
+    margin-left: 6.8vw;
+    top: -12vh;
+}
+
+.cuenta {
+    position: relative;
+    font-family: "grande";
+    font-size: 2vw;
+    width: 10vw;
+    top: 14vh;
+    left: 6vw;
+}
+
+.contacto {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    top: -15vh;
+    left: 40vw;
+    width: 20vw;
+    height:35vh;
+}
+
+.contact {
+    position: relative;
+    font-family: "grande";
+    font-size: 2vw;
+    width: 10vw;
+    top: 14vh;
+    left: 5vw;
+
+}
+
+.cell {
+    position: relative;
+    width: 7vw;
+    margin-left: 6.8vw;
+    top: -6vh;
+    
+}
+
+
+.reporta {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    top: -50vh;
+    left: 73vw;
+    width: 20vw;
+    height:35vh;
+}
+
+.report {
+    position: relative;
+    font-family: "grande";
+    font-size: 2vw;
+    width: 13vw;
+    top: 14vh;
+    left: 4vw;
+
+}
+
+.papell {
+    position: relative;
+    width: 7vw;
+    margin-left: 6.8vw;
+    top: -10vh;
+
 }
