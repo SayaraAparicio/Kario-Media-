@@ -44,6 +44,16 @@ header {
     top: -0%;
 }
 
+.custom1 {
+    text-decoration: none;
+    color: black;
+}
+
+.custom1:hover {
+    text-decoration: underline;
+
+}
+
 
 
 .refresh {
@@ -61,6 +71,16 @@ header {
     font-size: 3em;
 }
 
+.custom2 {
+    text-decoration: none;
+    color: black;
+}
+
+.custom2:hover {
+    text-decoration: underline;
+
+}
+
 .trash {
     position: relative;
     top: -88%;
@@ -76,6 +96,17 @@ header {
     font-size: 3em;
     
 }
+
+.custom3 {
+    text-decoration: none;
+    color: black;
+}
+
+.custom3:hover {
+    text-decoration: underline;
+
+}
+
 .logo {
     position: relative;
     top: -155%;
@@ -95,6 +126,16 @@ header {
     margin-left: 62.8vw;
     top: -8.5em;
     font-size: 3em;
+}
+
+.custom4 {
+    text-decoration: none;
+    color: black;
+}
+
+.custom4:hover {
+    text-decoration: underline;
+
 }
 
 .ayuda {
