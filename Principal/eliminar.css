@@ -44,6 +44,16 @@ header {
     top: -0%;
 }
 
+.custom1 {
+    text-decoration: none;
+    color: black;
+}
+
+.custom1:hover {
+    text-decoration: underline;
+
+}
+
 
 
 .refresh {
@@ -59,6 +69,16 @@ header {
     margin-left: 26vw;
     top: -55%;
     font-size: 3em;
+}
+
+.custom2 {
+    text-decoration: none;
+    color: black;
+}
+
+.custom2:hover {
+    text-decoration: underline;
+
 }
 
 .trash {
@@ -97,6 +117,16 @@ header {
     font-size: 3em;
 }
 
+.custom3 {
+    text-decoration: none;
+    color: black;
+}
+
+.custom3:hover {
+    text-decoration: underline;
+
+}
+
 .ayuda {
     position: relative;
     top: -215%;
@@ -111,6 +141,18 @@ header {
     margin-left: 77vw;
     font-size: 3em;
 }
+
+
+.custom4 {
+    text-decoration: none;
+    color: black;
+}
+
+.custom4:hover {
+    text-decoration: underline;
+
+}
+
 .settings {
     position: relative;
     top: -298%;
