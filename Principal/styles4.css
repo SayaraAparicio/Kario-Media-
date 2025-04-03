@@ -17,6 +17,10 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0%;
+    
+}
+.fondoMedia {
+    display: none;
 }
 
 header {
@@ -27,6 +31,37 @@ header {
     left : 0;
     height: 12vh;
     background-color: white;
+}
+
+h2 { 
+    font-family: "grande";
+    display: none;
+}
+.dropdown {
+    position: relative;
+    display: none; 
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 10px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
 }
 
 .añadir {
@@ -218,4 +253,43 @@ circle{
     transform: rotate(-90deg);
     transform-origin: 50%;
     stroke-linecap: round;
+}
+
+@media (max-width: 430px) {
+    .logo {
+        width: 20%;
+        top: -120vh;
+        left: 40vw;
+        z-index: 1;  
+      }
+
+    body {
+        background-image: none;
+        background-size: 100%;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+        overflow: hidden;
+        
+        
+    }
+
+    .fondoMedia {
+        display: block;
+        z-index: -1;
+        
+        overflow: hidden;
+        
+    
+    }
+    h2 {
+        display: inline-block;
+    }
+    .dropdown {
+        display: inline-block;
+    }
+    .dropdown:hover .dropdown-content {
+        display: inline-block;
+    }
+    
 }
